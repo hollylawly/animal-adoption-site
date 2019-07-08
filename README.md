@@ -2,6 +2,8 @@
 
 This is part one of a two part series on building an animal adoption site that pulls available animals from the PetFinder API.
 
+You can [view the tutorial](https://scotch.io/preview/building-an-animal-adoption-site-with-node-and-vue-part-1) on Scotch.io.
+
 We're using Node.js on the backend and Vue.js on the frontend. This **first portion** is just the site setup and sending mock data from the server to the client. In the next part, we'll get a token for the PetFinder API, learn how to refresh that token, and use it to pull and display available pets.
 
 If you find one you love, you'll even have the shelter's information so you can **reach out and adopt**! 🐱🐶
@@ -15,7 +17,7 @@ cd express-server
 npm install
 npm start
 ```
-### Setup Vue client
+### Setup Vue
 
 ```
 cd ../vue-client
